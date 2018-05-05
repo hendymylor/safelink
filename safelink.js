@@ -18,7 +18,13 @@ var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElement
 {a_to_vh=true;}
 j++;}
 if(a_to_vh==false)
-{var encryptedUrl=Base64.encode(a_to_vi);a_to_ve[i].href="http://www.safemylink.tk/p/generate.html?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+{var encryptedUrl=Base64.encode(a_to_vi);
+var x=Math.floor((Math.random()*4)+ 1);
+var xxx=null;
+if(x=="1"){xxx="3-forms-of-insurance-all-american.html"}
+if(x=="2"){xxx="application-used-for-fastest-growing.html"}
+if(x=="3"){xxx="what-makes-insurance-to-be-paradigm-for.html"}
+if(x=="4"){xxx="the-reasons-which-trigger-liability.html"}a_to_ve[i].href="https://www.safemylink.tk/2018/05/"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
